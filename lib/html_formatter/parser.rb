@@ -49,7 +49,7 @@ module HtmlFormatter
       @source = source
       @options = {
         # 自分の上下で必ず改行されていたいブロック系タグ
-        :block_tags         => %w(html head body title div p ul dl li map h1 h2 h3 h4 h5 h6 h7 h8 h9 hr script link area meta),
+        :block_tags         => %w(html head body title div p ul dl li map h1 h2 h3 h4 h5 h6 h7 h8 h9 hr script link area meta table tr td),
 
         # 子要素が必ず次の行に来て欲しいタグ
         :child_open         => %w(html head body div ul dl map),
